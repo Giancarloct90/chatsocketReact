@@ -1,0 +1,57 @@
+.chatss {
+  background-color: rgb(191, 255, 182);
+  padding: 0.4rem 1rem;
+  height: auto;
+  width: 60%;
+  text-align: right;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0.7rem 0rem;
+}
+.userName {
+  font-size: 1.5rem;
+  color: gray;
+}
+.userMessage {
+  font-size: 1.9rem;
+  color: black;
+  font-weight: 900;
+}
+.userTime {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.chatSideEnd {
+  text-align: center;
+  display: flex;
+  justify-content: end;
+}
+
+.chatSideStart {
+  text-align: center;
+  background-color: purple;
+  display: flex;
+  justify-content: start;
+}
+
+.chatss2 {
+  background-color: lightskyblue;
+  padding: 0.4rem 1rem;
+  height: auto;
+  width: 60%;
+  text-align: left;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0.7rem 0rem;
+}
+
+.msj {
+  // padding: 5% 0;
+  overflow: auto;
+  padding: 0.5rem 0.7rem;
+}

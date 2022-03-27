@@ -1,0 +1,58 @@
+.divLoginChatConatiner {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: url("../assets/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: centers;
+  //   background-color: aqua;
+}
+.divLogin {
+  background-color: white;
+  min-width: 100%;
+  padding: 5rem;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0rem 2rem 2rem 0rem rgba(0, 0, 0, 0.1),
+    0rem 2rem 2rem 0rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .divFormNombreLogins {
+    display: flex;
+    flex-direction: column;
+  }
+  .loginTitle {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .lblNombre {
+    font-size: 2rem;
+  }
+  .txtNombre {
+    height: auto;
+    padding: 0.4rem 1rem;
+    font-size: 1.5rem;
+  }
+  .bntLoginChat {
+    background-color: white;
+    border: 0.3rem solid rgb(2, 69, 92);
+    color: rgb(2, 69, 92);
+    border-radius: 0.7rem;
+    height: auto;
+    padding: 0.7rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    &:hover {
+      background-color: rgb(2, 69, 92);
+      border: 0.3rem solid rgb(2, 69, 92);
+      color: white;
+    }
+  }
+}

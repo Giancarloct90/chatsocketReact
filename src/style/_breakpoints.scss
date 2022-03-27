@@ -1,0 +1,19 @@
+@media screen and (max-width: 744px) {
+  // -ms-hyphenate-limit-chars: ;
+  html {
+    font-size: 42.5%;
+  }
+  .divChatsPeoples {
+    width: 85%;
+    // margin: auto;
+    // background-color: red;
+  }
+  .containerPeople {
+    width: 100%;
+  }
+
+  .btnSendMessage {
+    font-size: 0.5rem;
+    // display: none;
+  }
+}

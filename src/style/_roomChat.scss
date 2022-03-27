@@ -1,0 +1,94 @@
+.conatinerRoom {
+  background: #06beb6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #48b1bf,
+    #06beb6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #48b1bf,
+    #06beb6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2rem;
+  .roomChatTitle {
+    font-size: 4rem;
+  }
+  .divStatusRoomServer {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .roomStatus {
+    font-size: 1.2rem;
+  }
+  .divStatusServer {
+    height: 1rem;
+    width: 1rem;
+    // background-color: white;
+  }
+  .divChats {
+    position: relative;
+    background-color: white;
+    // width: 100%;
+    width: 100%;
+    height: 50rem;
+    border-radius: 0.7rem;
+    box-shadow: 0rem 3rem 3rem 0rem rgba(0, 0, 0, 0.1),
+      0rem 3rem 3rem 0rem rgba(0, 0, 0, 0.1);
+    // display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .divSendMessage {
+    width: 100%;
+    position: relative;
+    background-color: purple;
+    height: 3rem;
+    .txtSendMessage {
+      padding: 0.6rem 1rem;
+      width: 70%;
+      font-size: 2rem;
+    }
+    .btnSendMessage {
+      padding: 0.6rem 1rem;
+      font-size: 2rem;
+
+      width: 30%;
+      border: none;
+      //   border-radius: 0.8rem;
+      background-color: purple;
+      color: white;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+}
+
+.nameChater {
+  font-size: 1.8rem;
+}
+.divChatsPeoples {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  width: 50%;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 70%;
+  height: auto;
+}
+
+.section2 {
+  width: 30%;
+}
